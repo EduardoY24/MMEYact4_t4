@@ -83,6 +83,15 @@ bruno/        Colección de Bruno con todas las peticiones
 ### Validación fallida (400)
 ![Validación](capturas/09-validacion.png)
 
+### Funcionando en el VPS (entorno "VPS" de Bruno)
+Registro en el VPS:
+
+![VPS registro](capturas/10-vps-registro.png)
+
+Crear videojuego en el VPS:
+
+![VPS crear](capturas/11-vps-crear.png)
+
 ## Colección de Bruno
 Está en la carpeta `bruno/`. Para usarla: abrir Bruno → Open Collection → elegir la carpeta `bruno` → seleccionar el entorno **Local** o **VPS**. El registro y el login guardan el token automáticamente en la variable `token`.
 
