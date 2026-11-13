@@ -1,0 +1,15 @@
+meta {
+  name: 07 Eliminar videojuego
+  type: http
+  seq: 7
+}
+
+delete {
+  url: {{baseUrl}}/api/videojuegos/1
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{token}}
+}

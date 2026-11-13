@@ -1,0 +1,24 @@
+meta {
+  name: 09 Validacion fallida (debe dar 400)
+  type: http
+  seq: 9
+}
+
+post {
+  url: {{baseUrl}}/api/videojuegos
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{token}}
+}
+
+body:json {
+  {
+    "titulo": "",
+    "genero": "",
+    "precio": -10,
+    "plataformaId": null
+  }
+}

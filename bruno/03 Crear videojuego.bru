@@ -1,0 +1,24 @@
+meta {
+  name: 03 Crear videojuego
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{baseUrl}}/api/videojuegos
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{token}}
+}
+
+body:json {
+  {
+    "titulo": "GTA VI",
+    "genero": "Acción",
+    "precio": 2599.0,
+    "plataformaId": 1
+  }
+}

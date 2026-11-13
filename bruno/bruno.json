@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "MMEYact4_t4",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
